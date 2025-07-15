@@ -46,7 +46,7 @@ npm run dev
 |:-----|:-----|:-----|
 |      | index.js | Punto de entrada del servidor |
 |      | packege.json | Dependencias y scripts |
-|      | REEADME.md | Documentación del proyecto |
+|      | README.md | Documentación del proyecto |
 |      | .env | Esta carpeta no está incluida, ahí van las variables de entorno (*) |
 | routes | product.route.js | Definición de rutas |
 | controllers | product.controller.js | Lógica que responde a las rutas |
