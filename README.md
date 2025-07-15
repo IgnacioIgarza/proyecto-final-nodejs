@@ -28,20 +28,15 @@ npm install
 
 ### Iniciar el servidor
 
-Este comando inicia el servidor en modo desarrollo con Nodemon:
+Este comando iniciará el servidor:
+```bash
+npm start
+```
+O este comando inicia el servidor en modo desarrollo con Nodemon:
 
 ```bash
 npm run dev
 ```
-o
-```bash
-npm start
-```
-Este comando iniciará el servidor.
-
-
-
-
 
 ## Estructura del proyecto
 
@@ -51,6 +46,7 @@ Este comando iniciará el servidor.
 |      | index.js | Punto de entrada del servidor |
 |      | packege.json | Dependencias y scripts |
 |      | REEADME.md | Documentación del proyecto |
+|      | .env | Esta carpeta no está incluida, ahí van las variables de entorno (*) |
 | routes | product.route.js | Definición de rutas |
 | controllers | product.controller.js | Lógica que responde a las rutas |
 | services| product.sevice.js |Lógica de negocio reutilizable |
@@ -69,14 +65,26 @@ Este comando iniciará el servidor.
 
 ### POST: http://localhost:5000/api/products
 ### Ejemplo del Body:
-### {
-###     "nombre":"lapices-de-colores",
-###     "precio":2000,
-###     "stock":3,
-###     "disponible":true
-### }
+```json
+{
+  "nombre":"lapices-de-colores",
+  "precio":2000,
+  "stock":3,
+  "disponible":true
+}
+```
 ### Carga a la lista el producto y sus características.
 
 ### DELETE: http://localhost:5000/api/products/id
 ### Borra el producto con ese id y sus características de la lista.
 
+---
+
+## (*) En la raiz del proyecto debes agregar una carpeta .env con las sig. variables de entorno:
+### APIKEY = #Tus claves Firebase
+### AUTHDOMAIN = #Tus claves Firebase
+### PROJECTID = "api-proyecto-final-nodejs"
+### STORAGEBUCKET = #Tus claves Firebase
+### MESSAGINGSENDERID = #Tus claves Firebase
+### APPID = #Tus claves Firebase
+### MEASUREMENTID = #Tus claves Firebase
