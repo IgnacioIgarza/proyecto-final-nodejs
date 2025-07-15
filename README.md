@@ -4,13 +4,14 @@
 
 
 ### Este proyecto es una API Rest básica conectada a una base de datos de Firebase para cargar productos y algunas características de ellos con Node.js.
-### Para que funcione usé la información que me brindó el curso, ya que no tenía ningún conocimiento previo en el tema. 
+### Para que funcione usé la información que me brindó el curso, ya que no tenía ningún conocimiento previo en el tema, y requiere muchas mejoras futuras. 
+
+---
 
 ## Características
 
 - **Express** para gestionar rutas y middleware.
-- **Nodemon** para recargar automáticamente el servidor cuando se usa el modo desarrollo desarrollo.
-- Configuración minimalista lista para usar.
+- **Nodemon** para recargar automáticamente el servidor cuando se usa el modo desarrollo.
 
 ---
 
