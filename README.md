@@ -4,7 +4,7 @@
 
 
 ### Este proyecto es una API Rest básica conectada a una base de datos de Firebase para cargar productos y algunas características de ellos con Node.js.
-### Para que funcione usé la información que me brindó el curso, ya que no tenía ningún conocimiento previo en el tema.
+### Para que funcione usé la información que me brindó el curso, ya que no tenía ningún conocimiento previo en el tema. 
 
 ## Características
 
@@ -79,8 +79,10 @@ npm run dev
 ### Borra el producto con ese id y sus características de la lista.
 
 ---
+### Mejoras futuras: realizar validaciones para el ingreso de productos a la base de datos, autentificación de usuarios, protección de las rutas de autentificación
+---
 
-## (*) En la raiz del proyecto debes agregar una carpeta .env con las sig. variables de entorno:
+## (*) En la raiz del proyecto debes agregar una carpeta **.env** con las sig. variables de entorno:
 ### APIKEY = #Tus claves Firebase
 ### AUTHDOMAIN = #Tus claves Firebase
 ### PROJECTID = "api-proyecto-final-nodejs"
